@@ -1,0 +1,19 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.App {
+    padding: 0 50px;
+}
+.App ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.App ul li {
+
+    padding: 5px;
+    list-style-type: none;
+}
